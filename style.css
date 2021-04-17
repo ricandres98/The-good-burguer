@@ -2,6 +2,8 @@
     --size-1: 3rem;
     --size-2: 2.5rem;
     --primary-color: #DB6B18;
+    --secondary-color: #F2500F;
+    --terciary-color: #E8A30E;
 }
 * {
     margin: 0;
@@ -13,7 +15,10 @@ html {
 }
 body {
     font-size: var(--size-2);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
 }
+/* INICIO HEADER */
 header {
     background-color: var(--primary-color);
     display: flex;
@@ -24,6 +29,7 @@ header {
 }
 header h1 {
     line-height: 9rem;
+    font-weight: 400;
 }
 header img {
     width: 9rem;
@@ -42,4 +48,44 @@ nav li {
 nav li a {
     text-decoration: none;
     color: inherit;
+}
+/* FIN HEADER */
+
+/* INICIO HERO */
+.hero {
+    background-image: url(./images/hamburguesas.jpg);
+    background-color: khaki;
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height: 40vw;
+}
+.hero article {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero h1 {
+    font-size: 6rem;
+    background-color: var(--primary-color);
+    padding: 0 2rem;
+    margin-bottom: 1rem;
+}
+.hero h2 {
+    color: ivory;
+    font-size: 3.5rem;
+    background-color: var(--secondary-color);
+    padding: 0 2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.hero input {
+    font-family: Oswald,sans-serif;
+    font-weight: 700;
+    font-size: var(--size-2);
+    background-color: var(--terciary-color);
+    padding: .5rem;
+    border-radius: .7rem;
 }
