@@ -18,6 +18,13 @@ body {
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
 }
+main {
+    background-color: var(--terciary-color);
+}
+div.main {
+    max-width: 100rem;
+    margin: 0 auto;
+}
 /* INICIO HEADER */
 header {
     background-color: var(--primary-color);
@@ -89,3 +96,49 @@ nav li a {
     padding: .5rem;
     border-radius: .7rem;
 }
+/* FIN HERO */
+
+
+/* INICIO SECCIONES CONTENT */
+section.content figure {
+    width:40%;
+    display: flex;
+}
+.content img {
+    width: 100%;
+    border-radius: .2rem;
+    min-width: 230px;
+}
+section.content {
+    width: 100%;
+    padding: 2rem;
+    border: 1rem black double;
+    margin: 2rem auto;
+    display: flex;
+    align-items:center;
+}
+section.content article {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.content p {
+    text-align: justify;
+    padding-right: 2rem;
+}
+.content h2 {
+    margin-bottom: 1rem;
+}
+/* SECCIONES CONTENT "PAR" AL REVÉS */
+section.content.par {
+    flex-direction: row-reverse;
+}
+section.content.par h2 {
+    text-align: right;
+}
+section.content.par p {
+    padding-left: 2rem;
+    padding-right: 0;
+}
+/* FIN SECCIONES CONTENT */
