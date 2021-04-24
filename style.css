@@ -227,11 +227,6 @@ section.content.par p {
 footer h2 {
     width: 100%;
 }
-footer div {
-}
-footer div + p {
-   /* width: 50%; */
-}
 /* FIN FOOTER */
  
 @media (max-width: 500px) {
