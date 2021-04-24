@@ -213,6 +213,26 @@ section.content.par p {
     background-color: var(--secondary-color);
 }
  /* FIN TARJETAS */
+
+  /* FOOTER */
+  footer {
+    background-color: var(--primary-color);
+    font-size: 2rem;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+footer h2 {
+    width: 100%;
+}
+footer div {
+}
+footer div + p {
+   /* width: 50%; */
+}
+/* FIN FOOTER */
  
 @media (max-width: 500px) {
     /* HERO */
