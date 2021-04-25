@@ -1,0 +1,27 @@
+/* INICIO HERO */
+.hero {
+    height: 40vw;
+}
+.hero h1 {
+    font-size: 6rem;
+}
+.hero h2 {
+    font-size: 3.5rem;
+}
+.hero button {
+    display: block;
+}
+/* FIN HERO */
+
+/* SECCIONES CONTENT */
+section.content.par h2 {
+    text-align: right;
+}
+section.content.par p {
+    padding-left: 2rem;
+    padding-right: 0;
+}
+section.content p {
+    padding-left: 0;
+}
+/* FIN SECCIONES CONTENT */

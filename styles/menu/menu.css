@@ -1,0 +1,45 @@
+:root {
+    --size-1: 3rem;
+    --size-2: 2.5rem;
+    --primary-color: #DB6B18;
+    --secondary-color: #F2500F;
+    --terciary-color: #E8A30E;
+}
+section.main {
+    display: flex;
+    /* width: 30%; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+main h1 {
+    background-color: var(--primary-color);
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0px 3px 5px black;
+}
+article.tarjetas_item {
+    padding: 20px;
+    border: 10px double black;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    box-shadow: 0px 3px 5px black;
+}
+article.tarjetas_item h2 {
+    width: 100%;
+}
+article.tarjetas_item button {
+    width: 100%;
+}
+article.tarjetas_item figure{
+    max-width: 300px;
+    min-width: 180px;
+    height: 180px;
+    background-color: black;
+    margin: 10px;
+}
+.tarjetas_item button {
+    background-color: var(--secondary-color);
+}
