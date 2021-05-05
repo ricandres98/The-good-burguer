@@ -41,7 +41,7 @@ button:active {
     box-shadow: 0px 0px 5px black inset;
 }
 
-/* INICIO HEADER */
+/***** INICIO HEADER *****/
 header {
     background-color: var(--primary-color);
     display: flex;
@@ -93,6 +93,7 @@ header nav img:hover + ul {
     position: absolute;
     left: 0;
     background-color: var(--primary-color);
+    z-index: 1;
 }
 header nav img:hover + ul, header nav img:focus + ul {
         display: block;
@@ -103,13 +104,14 @@ header nav img:hover + ul, header nav img:focus + ul {
 header nav img:hover + ul li, header nav img:focus + ul li {
         box-shadow: 0 1px 2px black;
 }
-/* FIN HEADER */
+/***** FIN HEADER *****/
 
-  /* FOOTER */
+  /***** FOOTER *****/
   footer {
     background-color: var(--primary-color);
     font-size: 2rem;
     position: relative;
+    bottom: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -119,10 +121,10 @@ header nav img:hover + ul li, header nav img:focus + ul li {
 footer h2 {
     width: 100%;
 }
-/* FIN FOOTER */
+/***** FIN FOOTER *****/
 
 @media (min-width:900px) {
-    /* INICIO HEADER */
+    /***** INICIO HEADER *****/
     header {
         font-size: var(--size-1);
         justify-content: space-between;
@@ -157,5 +159,5 @@ footer h2 {
     header figure img {
         display: block;
     }
-    /* FIN HEADER */
+    /***** FIN HEADER *****/
 }
