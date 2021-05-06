@@ -12,12 +12,12 @@ section.main {
     justify-content: space-evenly;
 }
 main h1 {
-    background-color: var(--primary-color);
-    padding: 10px;
-    margin: 10px;
-    box-shadow: 0px 3px 5px black;
+    text-align: center;
+    font-size: 4.5rem;
+    padding: 5px;
 }
 article.tarjetas_item {
+    width:100%;
     height: 350px;
     padding: 20px;
     /* border: 10px double black; */
@@ -30,12 +30,12 @@ article.tarjetas_item {
     align-items: center;
     flex-grow: 1;
     box-shadow: 0px 3px 5px black;
-    background-image: url(../../images/mac.jpg);
+    background-image: url(https://i.imgur.com/6FreYyD.jpg);
     background-position: center;
     background-size: cover;
 }
 article.tarjetas_item.impar {
-    background-image: url(../../images/hamburguesas-parrilla.jpg);
+    background-image: url(https://i.imgur.com/cHJobx0.jpg);
 }
 article.tarjetas_item h2 {
     background-color: var(--terciary-color);
@@ -60,9 +60,9 @@ article.tarjetas_item a {
     color: inherit;
 }
 article.tarjetas_item span {
-    display: none;
+    /* display: none; */
 }
-article.tarjetas_item:hover span{
+article.tarjetas_item span{
     display: block;
     content: "$10.00";
     position: relative;
@@ -73,11 +73,7 @@ article.tarjetas_item:hover span{
     box-shadow: 2px 3px 5px black;
     border-radius: 5px;
 }
-article.tarjetas_item button {
-    width: 100%;
-    display: none;
-    background-color: var(--secondary-color);
-}
+
 /* article.tarjetas_item figure{
     max-width: 300px;
     min-width: 180px;

@@ -1,3 +1,10 @@
+:root {
+    --size-1: 3rem;
+    --size-2: 2.5rem;
+    --primary-color: #DB6B18;
+    --secondary-color: #F2500F;
+    --terciary-color: #E8A30E;
+}
 .elemento {
     display: flex;
     flex-wrap: wrap;
@@ -17,13 +24,13 @@ figure {
     background-position: center;
 }
 .uno figure {
-    background-image: url(../../images/Hamburguesa-de-Queso.jpg);
+    background-image: url(https://i.imgur.com/J9b3KdG.jpg);
 }
 .dos figure {
-    background-image: url(../../images/macncheese.jpg);
+    background-image: url(https://i.imgur.com/lIcGIp3.jpg);
 }
 .tres figure {
-    background-image: url(../../images/brownie.jpg);
+    background-image: url(https://i.imgur.com/pu9YtmD.jpg);
 }
 figure h2 {
     background-color: var(--terciary-color);
@@ -43,9 +50,15 @@ figure h2 {
     }
     .elemento figure {
         width: 70%;
+        height: 400px;
     }
     .elemento article {
+        display: flex;
+        align-items: center;
         width:30%;
+        padding: 20px;
+        /* border: 5px black solid; */
+        border-left: none;
     }
     .dos{
         flex-direction: row-reverse;

@@ -5,7 +5,7 @@
     --secondary-color: #F2500F;
     --terciary-color: #E8A30E;
 }
-/* INICIO HERO */
+/***** INICIO HERO *****/
 .hero {
     background-image: url(https://i.imgur.com/u3fKAjM.jpg);
     background-color: khaki;
@@ -43,9 +43,13 @@
 .hero button {
     display: none;
 }
-/* FIN HERO */
+.hero a {
+    text-decoration: none;
+    color: inherit;
+}
+/***** FIN HERO *****/
 
-/* SECCIONES CONTENT */
+/***** SECCIONES CONTENT *****/
 section.content figure {
     display: flex;
     flex-basis:40%;
@@ -92,9 +96,9 @@ section.content.par p {
     padding-right: 0;
 }
 
-/* FIN SECCIONES CONTENT */
+/***** FIN SECCIONES CONTENT *****/
 
-/* INICIO TARJETAS */
+/***** INICIO TARJETAS *****/
 .menu h2 {
     background-color: var(--primary-color);
     display: flex;
@@ -174,4 +178,4 @@ section.content.par p {
     width:100%;
     background-color: var(--secondary-color);
 }
-/* FIN TARJETAS */
+/***** FIN TARJETAS *****/
